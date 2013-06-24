@@ -33,6 +33,13 @@ App::uses('Controller', 'Controller');
  */
 class AppController extends Controller {
 
+	  public $pageTitle = '';
+	  
+	    public $components = array('Session');  
+	    public $helpers = array('Session', 'Time');
+	    public $current_user = null;
+	  
+
 	public function beforeFilter(){
 		
 		/**

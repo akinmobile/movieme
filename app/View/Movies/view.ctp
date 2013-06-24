@@ -1,0 +1,57 @@
+
+<body class="single-post">
+	<div class="header">
+		<div class="navbar">
+			<div class="navbar-inner">
+				<div class="container" style="width: auto;">
+					<!-- <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</a> -->
+					<a class="brand" href="#">MuveeMi</a>
+					<!-- <div class="nav-collapse">
+						<ul class="nav">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Link</a></li>
+							<li><a href="#">Link</a></li>
+							<li><a href="#">Link</a></li>
+						</ul>
+					</div> --><!-- /.nav-collapse -->
+				</div>
+			</div><!-- /navbar-inner -->
+		</div>
+	</div><!-- / header -->
+
+	<div class="content">
+		<div class="itemSorter"></div><!-- / itemSorter -->
+		<div class="contentListings">
+			<div class="trailer-thumb">
+				<div class="fullMovieCoverArt">
+					<a href="#" class="trailerIcon">
+						<img src="holder.js/460x300" alt="">
+					</a>
+				</div>
+			</div>
+			<h1>Man of Steel</h1>
+			<div class="meta">
+				<span class="pg-ratings">PG-13</span>
+				<span class="duration">2hr 03mins</span>
+				<span class="genre">Action, Adventure, Thriller</span>
+			</div>
+			<div class="movie-description">A young itinerant worker is forced to confront his secret extraterrestrial heritage when Earth is invaded by members of his race.</div>
+			<div class="schedules">
+				Schedules go in here...
+			</div><!-- / schedules -->
+			<div class="movie-reviews">
+				Movie reviews go in here...
+			</div><!-- / movie-reviews -->
+		</div><!-- / contentListings -->
+	</div><!-- / content -->
+	<div class="footer"></div><!-- / footer -->
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/holder.js"></script>
+</body>
+</html>

@@ -7,6 +7,25 @@ App::uses('AppController', 'Controller');
  */
 class MoviesController extends AppController {
 
+
+public function index() {
+
+	$this->layout = 'home';
+
+	/**
+	 * Load new movies
+	 */
+	 $data = $this->paginate('Movie');
+     $this->set('movies', $data);
+}
+
+public function view($id = null) {
+		$this->Movie->id = $id;
+		if (!$this->Movie->exists()) {
+			throw new NotFoundException(__('Movie not found'));
+		}
+		$this->set('movie', $this->Movie->read(null, $id));
+	}
 /**
  * backend_index method
  *
