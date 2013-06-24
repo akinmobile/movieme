@@ -3,8 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta content="width=device-width" name="viewport">
-	<title>Man of Steel</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
-	<link rel="stylesheet" href="css/style.css">
+	<title>Document</title>
+	 <?php echo $this->Html->css('bootstrap.min.css') ?>
+	 <?php echo $this->Html->css('bootstrap-responsive.min.css') ?>
+	  <?php echo $this->Html->css('style.css') ?>
 </head>

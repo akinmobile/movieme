@@ -44,10 +44,14 @@ class AppController extends Controller {
 		
 		/**
 		 * Only logged in and admin user us allowe to view backend
-		 */
+		 
 		if(isset($this->request->params['prefix']) && $this->request->params['prefix'] == 'backend') {
 
 			$this->redirectIfNotLoggedIn();
+		}*/
+
+		if(!isset($this->request->params['prefix']) ) {
+			$this->layout = 'home';
 		}
 		
 	}

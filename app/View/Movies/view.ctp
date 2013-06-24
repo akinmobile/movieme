@@ -1,28 +1,3 @@
-
-<body class="single-post">
-	<div class="header">
-		<div class="navbar">
-			<div class="navbar-inner">
-				<div class="container" style="width: auto;">
-					<!-- <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</a> -->
-					<a class="brand" href="#">MuveeMi</a>
-					<!-- <div class="nav-collapse">
-						<ul class="nav">
-							<li><a href="#">Home</a></li>
-							<li><a href="#">Link</a></li>
-							<li><a href="#">Link</a></li>
-							<li><a href="#">Link</a></li>
-						</ul>
-					</div> --><!-- /.nav-collapse -->
-				</div>
-			</div><!-- /navbar-inner -->
-		</div>
-	</div><!-- / header -->
-
 	<div class="content">
 		<div class="itemSorter"></div><!-- / itemSorter -->
 		<div class="contentListings">
@@ -48,10 +23,3 @@
 			</div><!-- / movie-reviews -->
 		</div><!-- / contentListings -->
 	</div><!-- / content -->
-	<div class="footer"></div><!-- / footer -->
-
-	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/holder.js"></script>
-</body>
-</html>

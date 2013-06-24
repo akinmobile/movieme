@@ -9,9 +9,6 @@ class MoviesController extends AppController {
 
 
 public function index() {
-
-	$this->layout = 'home';
-
 	/**
 	 * Load new movies
 	 */

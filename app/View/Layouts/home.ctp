@@ -1,13 +1,4 @@
-<!doctype html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta content="width=device-width" name="viewport">
-	<title>Document</title>
-	 <?php echo $this->Html->css('bootstrap.min.css') ?>
-	 <?php echo $this->Html->css('bootstrap-responsive.min.css') ?>
-	  <?php echo $this->Html->css('style.css') ?>
-</head>
+<?php echo $this->element('header'); ?>
 <body>
 	<div class="header">
 		<div class="navbar">
@@ -32,7 +23,10 @@
 		</div>
 	</div><!-- / header -->
 
-	
+	 <?php echo $this->fetch('content'); ?>
+	 
+	<?php echo $this->element('sql_dump'); ?>
+
 	<div class="footer"></div><!-- / footer -->
 </body>
 </html>
