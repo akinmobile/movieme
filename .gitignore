@@ -1,0 +1,10 @@
+app/Config/database.php
+app/Config/core.php
+app/tmp/logs/*
+app/tmp/sessions/*
+app/tmp/cache/models/*
+app/webroot/cache/*
+app/tmp/cache/persistent/*
+app/tmp/cache/views/*
+app/webroot/uploads/*
+/app/Eventlisteners/
